@@ -183,7 +183,7 @@ else:
     triangle_type = "Scalene"
 
 # Check if triangle can be formed
-formable = (side1 + side2 >= side3) and (side1 + side3 >= side2) and (side2 + side3 >= side1)
+formable = (side1 + side2 > side3) and (side1 + side3 > side2) and (side2 + side3 > side1)
 
 # Print the type of triangle
 print("The triangle is:", triangle_type)
